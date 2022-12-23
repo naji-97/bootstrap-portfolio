@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  background: #f7f7f9;
+}
+
+#header {
+  padding: 114px 24px;
+  background: url("assest/images/header-shapes\ mobile.png");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-bottom-left-radius: 100px;
+}
+
+#header h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 30px;
+}
+
+#header p{
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 16px;
+}
+
+#works {
+  padding: 114px 0;
+}
+
+#header .btn{
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #7f8cff;
+  margin-bottom: 21px;
+}
+
+.works_header{
+  list-style-type: none;
+  padding-left: 0;
+  text-transform: capitalize;
+}
+
+.works_header span{
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  margin: 0 12px;
+  border-radius: 50%;
+}
+
+ul.works_header li:first-child {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 16px;
+  color: #344563;
+}
+
+ul.works_stack{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.works_stack li {
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.work-card{
+  padding: 1rem;
+  border-radius: 16px;
+  margin-bottom: 88px;
+}
+
+.work-card .card-body{
+  padding: 0;
+}
+
+.work-card .card-title{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+.work-card .card-text{
+  font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+}
+.work-card .works_btn{
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin: 24px 0 28px;
+}
+ul.socials {
+  padding-left: 0;
+  justify-content: space-between;
+  max-width: 170px;
+  list-style-type: none;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #6070ff;
+  border-top-left-radius: 100px;
+}
+
+#footer_form {
+  background-image: url('assest/images/contact\ form\ shapes-mobile.svg');
+  background-size: contain auto;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  padding: 103px 24px 8px;
+}
+
+#footer h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+}
+
+#footer p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+#footer form {
+  margin-bottom: 32px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 16px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+#footer input {
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#footer textarea {
+  height: 200px;
+}
+
+#footer textarea::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+#footer .form_button {
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 8px;
+  border: 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+#footer .form_button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+#footer .form_button:active {
+  background: #2230d2;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+#footer .divider {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-top-right-radius: 100px;
+}
+
+#about .about_container {
+  display: flex;
+  flex-direction: column;
+}
+
+ul.socials {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-between;
+  max-width: 170px;
+}
+
+button.works_btn, .about_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin: 24px 0 28px;
+}
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+div.about_caption h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+div.about_caption h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+div.skills_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.about_skills {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul.skills_dropdown {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+
+ul.skills_dropdown h5 {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+}
+
+div.separator {
+  background: #dfe1e6;
+  height: 1px;
+}
+
+@media (min-width: 768px) {
+
+  #header {
+    background: url('assest/images/Header\ bg.svg'), #fff;
+    padding: 15rem 5rem;
+    background-size: 100vw 100vh;
+    background-position: center ;
+    border-bottom-left-radius: 200px;
+    background-repeat: no-repeat;
+  }
+  #about .about_container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 25px;
+  }
+
+  .about_caption {
+    flex: 2;
+  }
+
+  #about .about_container ul {
+    flex: 2.5;
+  }
+
+  ul.skills_dropdown {
+    display: flex;
+    gap: 12px;
+    max-width: 414px;
+  }
+
+  ul.skills_dropdown li h5 {
+    margin-left: 0;
+  }
+
+  ul.skills_dropdown li img {
+    width: 48px;
+    height: 48px;
+  }
+
+  div.divider {
+    display: none;
+  }
+#footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+#footer input,
+#footer textarea {
+  width: 440px;
+}
+}
