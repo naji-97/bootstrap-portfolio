@@ -380,4 +380,15 @@ div.separator {
   div.divider {
     display: none;
   }
+#footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+#footer input,
+#footer textarea {
+  width: 440px;
+}
 }
