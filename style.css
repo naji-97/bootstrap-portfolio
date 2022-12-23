@@ -235,6 +235,107 @@ textarea {
   border-radius: 10px;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-top-right-radius: 100px;
+}
+
+#about .about_container {
+  display: flex;
+  flex-direction: column;
+}
+
+ul.socials {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-between;
+  max-width: 170px;
+}
+
+button.works_btn, .about_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin: 24px 0 28px;
+}
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+div.about_caption h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+div.about_caption h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+div.skills_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.about_skills {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul.skills_dropdown {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.skills_dropdown li {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  align-items: center;
+}
+
+
+ul.skills_dropdown h5 {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+}
+
+div.separator {
+  background: #dfe1e6;
+  height: 1px;
+}
+
 @media (min-width: 768px) {
 
   #header {
@@ -244,5 +345,39 @@ textarea {
     background-position: center ;
     border-bottom-left-radius: 200px;
     background-repeat: no-repeat;
+  }
+  #about .about_container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 25px;
+  }
+
+  .about_caption {
+    flex: 2;
+  }
+
+  #about .about_container ul {
+    flex: 2.5;
+  }
+
+  ul.skills_dropdown {
+    display: flex;
+    gap: 12px;
+    max-width: 414px;
+  }
+
+  ul.skills_dropdown li h5 {
+    margin-left: 0;
+  }
+
+  ul.skills_dropdown li img {
+    width: 48px;
+    height: 48px;
+  }
+
+  div.divider {
+    display: none;
   }
 }
